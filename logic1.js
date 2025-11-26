@@ -52,7 +52,7 @@ function mergeArra(arr1, arr2) {
   }
   return temp2;
 }
-console.log(mergeArra([1, 2, 3], [4, 5]));
+console.log(mergeArra([1, 2, 3], [4, 5])); // [1, 2, 3, 4, 5]
 
 // 5️⃣ Convert Array of Objects → Array of Names
 
@@ -71,4 +71,4 @@ function converToArray() {
   return nameArray
 }
 
-console.log(converToArray())
+console.log(converToArray()) // ["Amit", "Riya", "Raj"]
