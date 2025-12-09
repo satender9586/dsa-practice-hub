@@ -15,3 +15,10 @@ console.log(+"xyz" + 1);
 // 2️⃣ Reverse Only Vowels in a String
 
 // 5️⃣ Rotate an Array by K Steps
+
+// 1️⃣ Find the Longest Consecutive Sequence in an Array
+
+// Example:
+
+// Input:  [100, 4, 200, 1, 3, 2]
+// Output: 4   (sequence is 1,2,3,4)
