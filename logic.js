@@ -22,3 +22,39 @@ console.log(+"xyz" + 1);
 
 // Input:  [100, 4, 200, 1, 3, 2]
 // Output: 4   (sequence is 1,2,3,4)
+//console.log(1 + +"2" + 3);
+
+console.log(null == undefined);
+console.log(null === undefined);
+
+const a = { n: 1 };
+let b = a;
+
+a.x = a = { n: 2 };
+
+console.log(a);     
+console.log(b);
+console.log(b.x);
+console.log(parseInt("09"));
+
+console.log("10" % "3");
+console.log([,] + 5);
+console.log([,,] == "");
+console.log(-"5");
+console.log(+"abc");
+
+console.log([1, 2, 3].map(parseInt));
+
+
+
+console.log(+"  ");
+console.log(+"");
+console.log(+"01");
+
+
+// Practical 4 — Check deep equality
+// // deepEqual({a:{b:1}}, {a:{b:1}}) → true
+
+// Practical 5 — Debounce function
+// // Implement debounce(fn, delay)
+
